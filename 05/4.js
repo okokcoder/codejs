@@ -10,3 +10,10 @@
 // }
 
 const lang = ["java","c++","js"]
+for (const key in lang) {
+    console.log(lang[key]);
+    
+}
+
+// for in lop cant be use for maps as they are not itteratable
+
